@@ -1,0 +1,178 @@
+.services{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    width: "100%"
+  }
+
+  .services__container{
+    width:100%;
+}
+
+  .service__col-1{
+    width: 100%; 
+    background-image:cover ;
+    background-image: url("https://cdn.shopify.com/s/files/1/0737/8455/files/488_Oct_Store_Services_Page_D_02_c21405a1-10e3-4e2d-80cc-4a7e2efbb35b_1350x.jpg?v=1569891959");
+    background-repeat: no-repeat;  
+}
+
+.service__col-2{
+    width: 100%; 
+    padding-bottom: 4%;
+}
+
+.service__col-3{
+    width: 100%; 
+    background-image:cover ;
+    background-image: url("https://cdn.shopify.com/s/files/1/0737/8455/files/488_Oct_Store_Services_Page_D_03_0f054d2b-dfe8-4337-aa5c-1acd1546a50c_1350x.jpg?v=1569953481");
+    background-repeat: no-repeat;  
+}
+
+.service__col-4{
+    width: 100%; 
+    background-image:cover ;
+    background-image: url("https://cdn.shopify.com/s/files/1/0737/8455/files/488_Oct_Store_Services_Page_D_Update_13_1350x.jpg?v=1573772215");
+    background-repeat: no-repeat;  
+}
+
+
+.services__root{
+    flex-grow: 1;
+  }
+
+.services__paper1{
+    padding: 27%;
+    text-align: right;
+    background-image: url("https://cdn.shopify.com/s/files/1/0737/8455/files/488_Oct_Store_Services_Page_D_04_450x.jpg?v=1569906122");
+background-repeat: no-repeat;  
+}
+  .services__paper2{
+      padding: 27%;
+    text-align: right;
+    background-image: url("https://cdn.shopify.com/s/files/1/0737/8455/files/488_Oct_Store_Services_Page_D_05_450x.jpg?v=1569906135");
+background-repeat: no-repeat; 
+  }
+  .services__paper3{
+    padding: 27%;
+    text-align: right;
+    background-image: url("https://cdn.shopify.com/s/files/1/0737/8455/files/488_Oct_Store_Services_Page_D_06_450x.jpg?v=1569906148");
+background-repeat: no-repeat; 
+  }
+  .services__paper4{
+    padding: 27%;
+    text-align: right;
+    background-image: url("https://cdn.shopify.com/s/files/1/0737/8455/files/488_Oct_Store_Services_Page_D_07_450x.jpg?v=1569906168");
+background-repeat: no-repeat;  
+}
+  .services__paper5{
+      padding: 27%;
+    text-align: right;
+    background-image: url("https://cdn.shopify.com/s/files/1/0737/8455/files/488_Oct_Store_Services_Page_D_08_450x.jpg?v=1569906183");
+background-repeat: no-repeat; 
+  }
+  .services__paper6{
+    padding: 27%;
+    text-align: right;
+    background-image: url("https://cdn.shopify.com/s/files/1/0737/8455/files/488_Oct_Store_Services_Page_D_09_450x.jpg?v=1569906196");
+background-repeat: no-repeat; 
+  }
+  .services__paper7{
+    padding: 27%;
+    text-align: right;
+    background-image: url("https://cdn.shopify.com/s/files/1/0737/8455/files/488_Oct_Store_Services_Page_D_10_450x.jpg?v=1569906219");
+background-repeat: no-repeat;  
+}
+  .services__paper8{
+      padding: 27%;
+    text-align: right;
+    background-image: url("https://cdn.shopify.com/s/files/1/0737/8455/files/488_Oct_Store_Services_Page_D_11_450x.jpg?v=1569906231");
+background-repeat: no-repeat; 
+  }
+  .services__paper9{
+    padding: 27%;
+    text-align: right;
+    background-image: url("https://cdn.shopify.com/s/files/1/0737/8455/files/488_Oct_Store_Services_Page_D_12_450x.jpg?v=1569823157");
+background-repeat: no-repeat; 
+  }
+  
+  .services__root{
+    background-color: black;
+  }
+
+  .grid__heading
+  {
+    color: white;
+  }
+
+.service__col-1 > h3
+  {
+      padding-right: 35%;
+      padding-top: 13%;
+      text-align: center;
+      color: white;
+      font-weight: 600;
+      font-size: 120%;
+      padding-left: 35%;
+      padding-bottom: 1%;
+  }
+
+  .service__col-1 > p
+  {
+      padding-right: 37%;
+      text-align: center;
+      color: white;
+      font-weight: 400;
+      font-size: 100%;
+      padding-left: 37%;
+      padding-bottom: 1.5%;
+  }
+
+
+  .service__col-3 > h3
+  {
+      padding-right: 35%;
+      padding-top: 5%;
+      text-align: center;
+      color: white;
+      font-weight: 600;
+      font-size: 120%;
+      padding-left: 35%;
+      padding-bottom: 1%;
+  }
+
+  .service__col-3 > p
+  {
+      padding-right: 37%;
+      text-align: center;
+      color: white;
+      font-weight: 400;
+      font-size: 100%;
+      padding-left: 37%;
+      padding-bottom: 3%;
+  }
+
+  .service__col-4 > h3
+  {
+      padding-right: 65%;
+      padding-top: 12%;
+      text-align: left;
+      color: white;
+      font-weight: 600;
+      font-size: 125%;
+      padding-left: 7%;
+      padding-bottom: 1%;
+  }
+
+  .service__col-4 > p
+  {
+      padding-right: 65%;
+      line-height: 140%;
+      letter-spacing: 1px;
+      text-align: left;
+      color: white;
+      font-weight: 400;
+      font-size: 100%;
+      padding-left: 7%;
+      padding-bottom: 25%;
+  }

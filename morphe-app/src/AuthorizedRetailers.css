@@ -1,0 +1,45 @@
+.authorized{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    width: "100%";
+  }
+
+  .authorized__container{
+    width:100%;
+    background-image: url("https://cdn.shopify.com/s/files/1/1994/6973/files/Authorized_Retailers_D_Blank.jpg?34845");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 70px;
+    
+   
+}
+
+
+.main__heading{
+    padding-top: 10%;
+text-align: center;
+padding-bottom: 0%;
+}
+
+.main__heading >h1{
+    font-size: 48px;
+    font-weight: 400;
+    padding-bottom: 2%;
+}
+
+.main__details{
+    padding-top: 5%;
+    padding-right: 27%;
+    padding-left: 27%;
+text-align: center;
+padding-bottom: 0%;
+}
+
+.main__details > p
+{
+    
+    font-size: 18px;
+}

@@ -1,0 +1,204 @@
+.payment{
+    background-color: white;
+    display: flex;
+    width: 100%;
+    
+    flex-direction: column;
+    
+    
+}
+
+.payment__container{
+    display: flex;
+}
+
+
+.payment__image
+{
+    
+    padding:10px;  
+}
+.payment__title 
+{
+    text-align:left;
+    padding:10px;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+.payment__section1{
+    width: 45%;
+    padding:20px;
+    padding-left: 100px;
+    margin: 0 20px;
+    background-color: white;
+    
+}
+
+.payment__section2
+{ 
+    padding-right: 10%;
+    padding-left: 5%;
+    padding-top: 5%;
+    width:55%;
+    border-left: 1px solid lightslategray;
+    background-color: #f7f5f5;
+}
+
+.payment__email{
+    padding:10px;
+}
+
+.payment__info{
+    padding:10px;
+    
+    
+    
+}
+
+
+
+.input
+{
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    width: 80%;
+}
+
+.input__field{
+    padding-bottom:10px ;
+    width: 100%;
+}
+
+.name__field
+{
+    display: flex;
+}
+.input__field1{
+    padding-bottom:10px ;
+    padding-right: 0.5%;
+    width: 44%;
+}
+
+.input__field2
+{
+    padding-bottom:10px ;
+    width: 44%; 
+}
+
+
+.button_payment
+{
+    padding-top: 25px;
+    padding-left:38%
+}
+
+.btn__continue
+{
+    background-color: black;
+    border-radius: 3px;
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    border: none;
+}
+
+.payment__items 
+{
+    padding-top:10px;
+    border-bottom: 1px solid grey;
+    padding-right: 20%;
+    padding-left: 5%;
+    padding-bottom: 10px;
+}
+
+.payment__price__container
+{
+    padding-bottom: 10px;
+    padding-top:10px;
+    border-bottom: 1px solid grey;
+    padding-right: 20%;
+    padding-left: 5%;
+}
+
+
+.payment__price__container2
+{
+    padding-top:10px;
+    padding-right: 20%;
+    padding-left: 5%;
+}
+.payment__navigation
+{
+    display: flex;
+    padding:10px;
+    font-size: 12px;
+}
+
+.nav__list
+{
+    color: black;
+    text-decoration: none;
+}
+
+.price__tag
+{
+    display: flex;
+}
+
+.price__heading{
+    width: 50%;
+    text-align: left;
+    font-weight: 400;
+}
+.price__value
+{
+    font-weight: 500;
+    width: 50%;
+    text-align: right;
+}
+
+
+.Shipping__method
+{
+    padding:10px;
+}
+
+.standard__shipping
+{
+    width: 83%;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border: 1px solid black;
+    font-size: 14px;
+}
+
+.standard__shipping__update
+{
+    width: 83%;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    border: 1px solid black;
+}
+
+.standard__shipping__update >p
+{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.standard__delivery__heading{
+    text-align: left;
+    width: 60%;
+}
+.standard__delivery__price
+{
+    width: 38%;
+    text-align: right;
+}

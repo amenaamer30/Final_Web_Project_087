@@ -1,0 +1,39 @@
+.partnership{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+  }
+
+  .partnership__container{
+      width:100%;
+  }
+
+  .partnership__image {
+    width: 100%;
+    z-index: -1;
+
+    margin-bottom: -10px;
+}
+
+.partnership__text {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    margin-right:25%;
+    line-height: 200%;
+    text-align:left;
+    color:black;
+}
+
+.partnership__text >h1
+{
+    font-size: 265%;
+    font-weight: 400;
+    padding-bottom: 2%;
+}
+
+.partnership__text >p {
+    text-align: center;
+}

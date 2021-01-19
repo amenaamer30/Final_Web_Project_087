@@ -1,0 +1,39 @@
+.new {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+  }
+
+  .new__container{
+      width:100%
+  }
+  .new__row2 {
+      margin-left: 30px;
+      margin-right: 30px;
+    margin-top: 40px;
+    margin-top: 40px;
+    color: black;
+    background-image: url(https://cdn.shopify.com/s/files/1/0737/8455/files/badge_back.jpg?v=11121163757935057268);
+    background-repeat: repeat-x;
+    background-position: center center;
+    text-align: center;
+  }
+
+  .new__heading {
+    background-color: white;
+    font-family: "DINW05-Regular", Arial, sans-serif;
+    font-weight: 600;
+    
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .new__row {  
+    display: flex; 
+    z-index: 1; 
+    margin-left: 5px;  
+    margin-right: 5px;
+  }

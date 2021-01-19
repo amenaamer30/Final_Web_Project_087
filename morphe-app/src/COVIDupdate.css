@@ -1,0 +1,46 @@
+.covidUpdate {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+
+.COVID__container
+{
+    width: 900px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding-top:10%;
+    padding-bottom:10% ;
+}
+
+.COVID__container > h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+.COVID__container > p{
+    font-size: 18px;
+    padding-bottom: 20px;
+   
+}
+
+.COVID__container > li{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.COVID__container > h3{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+.links{
+    color: black;
+}
